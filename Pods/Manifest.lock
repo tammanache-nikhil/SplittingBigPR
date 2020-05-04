@@ -1,0 +1,27 @@
+PODS:
+  - Airship (13.0.4):
+    - Airship/Automation (= 13.0.4)
+    - Airship/Core (= 13.0.4)
+    - Airship/ExtendedActions (= 13.0.4)
+    - Airship/MessageCenter (= 13.0.4)
+  - Airship/Automation (13.0.4):
+    - Airship/Core
+  - Airship/Core (13.0.4)
+  - Airship/ExtendedActions (13.0.4):
+    - Airship/Core
+  - Airship/MessageCenter (13.0.4):
+    - Airship/Core
+
+DEPENDENCIES:
+  - Airship
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Airship
+
+SPEC CHECKSUMS:
+  Airship: 81fd9eb432ff6db75140d5412915803806423cfb
+
+PODFILE CHECKSUM: add809dc6d4b79ba3aefb920562bbb9ca6ac71ce
+
+COCOAPODS: 1.6.2
