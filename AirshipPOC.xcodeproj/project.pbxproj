@@ -11,6 +11,8 @@
 		181FC1042460446500165D6F /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FC1032460446500165D6F /* NibLoadable.swift */; };
 		181FC1062460446F00165D6F /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FC1052460446F00165D6F /* Dynamic.swift */; };
 		181FC1082460448200165D6F /* BatteryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FC1072460448200165D6F /* BatteryManager.swift */; };
+		181FC10A2460483900165D6F /* TimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FC1092460483800165D6F /* TimeZone.swift */; };
+		181FC10C2460483E00165D6F /* Array+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FC10B2460483E00165D6F /* Array+Custom.swift */; };
 		1861B22523C5BF4900D114DF /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861B22423C5BF4900D114DF /* NotificationService.swift */; };
 		1861B22923C5BF4900D114DF /* AirshipPOCServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1861B22223C5BF4900D114DF /* AirshipPOCServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		18744C7623C5B0CE0096E00C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18744C7523C5B0CE0096E00C /* AppDelegate.swift */; };
@@ -52,6 +54,8 @@
 		181FC1032460446500165D6F /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		181FC1052460446F00165D6F /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		181FC1072460448200165D6F /* BatteryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryManager.swift; sourceTree = "<group>"; };
+		181FC1092460483800165D6F /* TimeZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeZone.swift; sourceTree = "<group>"; };
+		181FC10B2460483E00165D6F /* Array+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Custom.swift"; sourceTree = "<group>"; };
 		1861B22223C5BF4900D114DF /* AirshipPOCServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AirshipPOCServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1861B22423C5BF4900D114DF /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		1861B22623C5BF4900D114DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,10 +147,12 @@
 				18744C7523C5B0CE0096E00C /* AppDelegate.swift */,
 				181FC1052460446F00165D6F /* Dynamic.swift */,
 				181FC101246043CD00165D6F /* PushHandler.swift */,
+				181FC10B2460483E00165D6F /* Array+Custom.swift */,
 				18744C7723C5B0CE0096E00C /* SceneDelegate.swift */,
 				18744C7923C5B0CE0096E00C /* ViewController.swift */,
 				181FC1072460448200165D6F /* BatteryManager.swift */,
 				181FC1032460446500165D6F /* NibLoadable.swift */,
+				181FC1092460483800165D6F /* TimeZone.swift */,
 				18744C7B23C5B0CE0096E00C /* Main.storyboard */,
 				18744C7E23C5B0DB0096E00C /* Assets.xcassets */,
 				18744C8023C5B0DB0096E00C /* LaunchScreen.storyboard */,
@@ -336,8 +342,10 @@
 				18744C7623C5B0CE0096E00C /* AppDelegate.swift in Sources */,
 				181FC1082460448200165D6F /* BatteryManager.swift in Sources */,
 				181FC102246043CD00165D6F /* PushHandler.swift in Sources */,
+				181FC10A2460483900165D6F /* TimeZone.swift in Sources */,
 				181FC1062460446F00165D6F /* Dynamic.swift in Sources */,
 				181FC1042460446500165D6F /* NibLoadable.swift in Sources */,
+				181FC10C2460483E00165D6F /* Array+Custom.swift in Sources */,
 				18744C7823C5B0CE0096E00C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
